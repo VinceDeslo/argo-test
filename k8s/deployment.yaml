@@ -14,8 +14,6 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: library/hello-world
-        # args:
-        # - "-text=version 1-0-0"
+        image: alpine-latest
         ports:
         - containerPort: 5678
