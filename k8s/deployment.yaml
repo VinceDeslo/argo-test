@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: hashicorp/http-echo
-        args:
-        - "-text=version 1-0-0"
+        image: library/hello-world
+        # args:
+        # - "-text=version 1-0-0"
         ports:
         - containerPort: 5678
